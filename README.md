@@ -30,7 +30,7 @@ It also sets up firewall rules and systemd services so everything runs out of th
 One-liner install:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Kintoyyy/genieacs-installer/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/alvision07/GenieACSAuto/main/install.sh)" alvision07/GenieACSAuto
 ```
 
 Or clone and run manually:
