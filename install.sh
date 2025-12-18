@@ -121,8 +121,8 @@ fi
 # Node.js Installation
 # ------------------------
 if ! $NODE_INSTALLED; then
-    echo -e "${YELLOW}Installing Node.js 20.x...${RESET}"
-    curl -sL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
+    echo -e "${YELLOW}Installing Node.js 18.x...${RESET}"
+    curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
     bash nodesource_setup.sh
     apt-get install -y nodejs
     node -v
